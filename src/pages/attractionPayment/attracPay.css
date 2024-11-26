@@ -1,0 +1,236 @@
+.q-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 100px; /* Adjusted to reasonable value */
+}
+
+.form-container {
+    flex: 1;.container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 0 100px; /* Adjusted to reasonable value */
+    }
+    
+    .form-container {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .summary-container {
+        width: 450px; /* Adjust the width as needed */
+        flex-shrink: 0;
+    }
+    
+    .details-form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    
+    .details-form h3 {
+        margin-bottom: 15px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"], .form-group input[type="email"], .form-group input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .phone-input {
+        display: flex;
+    }
+    
+    .phone-input select {
+        margin-right: 10px;
+    }
+    
+    .passport-date input {
+        width: 30%; /* Adjusted width */
+        padding: 10px; /* Added padding */
+        margin-right: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .passport-date input:last-child {
+        margin-right: 0;
+    }
+    
+    .tour-summary {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    
+    .tour-summary img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-right: 15px;
+    }
+    
+    .price-summary {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    
+    .price-summary h4 {
+        margin-top: 10px;
+    }
+    
+    .cancellation-policy {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-top: 20px;
+    }
+    
+    .payment-button {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background-color: #71BCAA;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .payment-button:hover {
+        background-color: #0056b3;
+    }
+    
+    margin-right: 20px;
+}
+
+.summary-container {
+    width: 450px; /* Adjust the width as needed */
+    flex-shrink: 0;
+}
+
+.details-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.details-form h3 {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"], .form-group input[type="email"], .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.phone-input {
+    display: flex;
+}
+
+.phone-input select {
+    margin-right: 10px;
+}
+
+.passport-date input {
+    width: 30%; /* Adjusted width */
+    padding: 10px; /* Added padding */
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.passport-date input:last-child {
+    margin-right: 0;
+}
+
+.tour-summary {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.tour-summary img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.price-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.price-summary h4 {
+    margin-top: 10px;
+}
+
+.cancellation-policy {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.payment-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #71BCAA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}

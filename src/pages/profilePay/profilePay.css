@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-sidebar {
+    width: 250px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .profile-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .profile-sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .profile-sidebar ul li a.active {
+    color: #0071c2;
+    font-weight: bold;
+  }
+  
+  .profile-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px; /* Adds spacing between sidebar and content */
+  }
+  
+  .profile-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .payment-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .payment-info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .payment-info-label {
+    font-size: 16px;
+    color: #333;
+    flex: 1;
+  }
+  
+  .payment-info-value {
+    font-size: 16px;
+    color: #666;
+    flex: 2;
+  }
+  
+  .payment-info-edit {
+    font-size: 14px;
+    color: #0071c2;
+    text-decoration: none;
+  }
+  
+  .payment-info-edit:hover {
+    text-decoration: underline;
+  }
+  
+  .payment-card-form {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .payment-card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .payment-card-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-card-field {
+    margin-bottom: 20px;
+  }
+  
+  .payment-card-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-card-field input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-card-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .payment-card-cancel {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .payment-card-save {
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .payment-card-cancel:hover,
+  .payment-card-save:hover {
+    opacity: 0.8;
+  }
+  

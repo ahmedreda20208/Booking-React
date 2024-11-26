@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.search-summary-box {
+  background-color: white;
+  border: 2px solid #FFD700;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.location {
+  margin: 0 10px;
+}
+
+.location h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.location p {
+  margin: 0;
+  color: #555;
+}
+
+.arrow {
+  font-size: 1.5em;
+  margin: 0 10px;
+  color: #FFD700;
+}
+
+.edit-button {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.edit-button:hover {
+  background-color: #005bb5;
+}
+
+.content-area {
+  display: flex;
+  width: 100%;
+}
+
+.filter-sidebar {
+  width: 250px;
+  margin-right: 20px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.map-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.map-button:hover {
+  background-color: #005bb5;
+}
+
+.filters {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section h4 {
+  margin: 0 0 10px 0;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.car-list {
+  flex: 1;
+}
+
+.car-item {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+.car-image {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.car-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.view-deal-button {
+  background-color: #71BCAA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-deal-button:hover {
+  background-color: #005bb5;
+}
+
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+}
+
+.map-container.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.map-container iframe {
+  width: 80%;
+  height: 80%;
+  border: none;
+}
+
+.map-close-button {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 246, 246); /* If you want a blue background */
+  color: rgb(0, 0, 0); /* Ensure the "X" is visible */
+}

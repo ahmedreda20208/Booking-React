@@ -1,0 +1,62 @@
+.bookingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.bookingContainer select {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.priceDisplay {
+  margin: 20px 0;
+}
+
+.bookingContainer button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.bookingContainer button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.hotelReview {
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 80%;
+}
+
+.hotelRating {
+  font-weight: bold;
+}
+
+.hotelDescription {
+  margin-top: 10px;
+}
+
+.userReview {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.ratingBar {
+  width: 100px;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px 0;
+}
+
+.ratingFill {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0; /* This will be dynamically set based on rating */
+}

@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .reviews-header {
+    background-color: #003580;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reviews-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .reviews-nav a.active {
+    border-bottom: 2px solid white;
+  }
+  
+  .reviews-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  
+  .reviews-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .reviews-info h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .edit-profile {
+    color: #0071c2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .edit-profile:hover {
+    text-decoration: underline;
+  }
+  
+  .reviews-stats {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .reviews-stat {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .reviews-stat span:first-child {
+    display: block;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .reviews-stat span:last-child {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .reviews-message {
+    text-align: center;
+    color: #666;
+  }
+  
+  .placeholder-image {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .reviews-message p {
+    font-size: 16px;
+    margin: 0;
+  }
+  

@@ -1,0 +1,61 @@
+/* resetLinkSent.css */
+
+.reset-link-sent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.reset-link-sent-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reset-link-sent-container p {
+    font-size: 16px;
+    color: #333;
+}
+
+.reset-link-sent-container strong {
+    font-weight: bold;
+}
+
+.reset-link-sent-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 16px;
+}
+
+.reset-link-sent-container button:hover {
+    background-color: #0056b3;
+}
+
+.terms {
+    font-size: 12px;
+    color: #666;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}

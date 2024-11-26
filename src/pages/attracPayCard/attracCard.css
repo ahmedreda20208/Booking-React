@@ -1,0 +1,154 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 100px; /* Increase space on the right and left */
+  }
+  
+  .payment-section, .summary-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .payment-section {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .summary-section {
+    flex: 1;
+  }
+  
+  .payment-methods {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .payment-method {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .payment-method:last-child {
+    margin-right: 0;
+  }
+  
+  .method-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-images {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .card-images img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .card-images img:last-child {
+    margin-right: 0;
+  }
+  
+  /* .card-icon::before, .paypal-icon::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin-right: 10px;
+  }
+  
+  .card-icon::before {
+    background-image: url('path/to/card-icon.png'); 
+  }
+  
+  .paypal-icon::before {
+    background-image: url('path/to/paypal-icon.png'); 
+  } */
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .expiration-date {
+    display: flex;
+  }
+  
+  .expiration-date input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .expiration-date input:last-child {
+    margin-right: 0;
+  }
+  
+  .complete-booking-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .complete-booking-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .complete-booking-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .tour-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .tour-summary img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  
+  .price-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  

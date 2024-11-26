@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-sidebar {
+    width: 250px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .profile-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .profile-sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .profile-sidebar ul li a.active {
+    color: #0071c2;
+    font-weight: bold;
+  }
+  
+  .profile-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .profile-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .add-traveler-button, .save-button, .cancel-button {
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-traveler-button:hover, .save-button:hover, .cancel-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .traveler-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .traveler-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .traveler-form input, .traveler-form select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .traveler-form input[type="checkbox"] {
+    width: auto;
+  }
+  
+  .traveler-form .form-buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .traveler-form .save-button {
+    background-color: #0071c2;
+  }
+  
+  .traveler-form .cancel-button {
+    background-color: #d9534f;
+  }
+  

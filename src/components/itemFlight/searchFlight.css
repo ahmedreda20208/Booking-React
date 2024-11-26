@@ -1,0 +1,102 @@
+.flightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Aligns items to the right */
+  gap: 20px;
+  margin-right: 350px; /* Adds space from the right */
+  margin-top: 40px;
+}
+
+.flightItem {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 45%; /* Set the width of each item to be smaller */
+  box-sizing: border-box;
+}
+
+.fiImg {
+  width: 150px; /* Adjusted width */
+  height: 150px; /* Adjusted height */
+  object-fit: cover;
+}
+
+.fiDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.fiAirline {
+  font-size: 20px;
+  color: #102335;
+}
+
+.fiDepartureTime,
+.fiArrivalTime,
+.fiDuration,
+.fiFeatures,
+.fiFreeCancellation,
+.fiCancellationDetails {
+  font-size: 12px;
+}
+
+.fiFreeCancellation {
+  color: #008009;
+  font-weight: bold;
+}
+
+.fiDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fiRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fiRating > span {
+  font-weight: 500;
+}
+
+.fiRating > button {
+  background-color: #71bcaa;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.fiDetailTexts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.fiPrice {
+  font-size: 24px;
+}
+
+.fiTaxOp {
+  font-size: 12px;
+  color: gray;
+}
+
+.fiViewDealButton {
+  background-color: #71bcaa;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

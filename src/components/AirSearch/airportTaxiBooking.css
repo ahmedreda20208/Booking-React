@@ -1,0 +1,94 @@
+.airport-taxi-booking {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 3px solid #71BCAA;
+
+}
+
+.airport-taxi-booking h1 {
+  color: #003580;
+  margin-bottom: 10px;
+}
+
+.airport-taxi-booking p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.airport-taxi-booking form {
+  display: flex;
+  flex-direction: column;
+}
+
+.airport-taxi-booking input[type="text"],
+.airport-taxi-booking input[type="date"],
+.airport-taxi-booking input[type="number"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.airport-taxi-booking label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.airport-taxi-booking input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.airport-taxi-booking button {
+  padding: 10px;
+  background-color: #102335;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.airport-taxi-booking button:hover {
+  background-color: #0057a3;
+}
+.booking-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.trip-type,
+.booking-form input,
+.booking-form .passengers,
+.booking-form button {
+  flex: 1;
+  min-width: 120px; /* Adjust the min-width as needed */
+  margin: 5px;
+}
+
+.passenger-label {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .booking-form {
+    flex-direction: column;
+  }
+
+  .trip-type,
+  .booking-form input,
+  .booking-form .passengers,
+  .booking-form button {
+    flex: none;
+    width: 100%;
+    margin: 5px 0;
+  }
+}

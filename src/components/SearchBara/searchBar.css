@@ -1,0 +1,52 @@
+.customSearch {
+    background-color: white;
+    border: 3px solid #71BCAA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto; /* Center horizontally */
+    position: relative;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for proper centering */
+    z-index: 99;
+}
+
+.customIcon {
+    color: lightgray;
+}
+
+.customSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.customSearchInput {
+    border: none;
+    outline: none;
+}
+
+.customSearchText {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.customDate {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.customBtn {
+    background-color: #102335;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Increased padding for larger button */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+}

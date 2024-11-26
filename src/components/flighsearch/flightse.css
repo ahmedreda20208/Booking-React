@@ -1,0 +1,139 @@
+.flightSearchTitle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 210px;
+  
+}
+
+.flightSearch {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 100px; 
+  
+}
+
+.flightSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.flightSearchInput {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.flightIcon {
+  color: lightgray;
+  margin-right: 5px;
+}
+
+.dateRange {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.dropdowns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  padding: 5px;
+  font-size: 12px;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.searchButton {
+  background-color: #102335;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.flightSegment {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.addSegmentButton,
+.removeSegmentButton {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removeSegmentButton {
+  background-color: #ff4d4d;
+}
+.passengerDropdown {
+  position: relative;
+}
+
+.passengerSelector {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  z-index: 1;
+}
+
+.passengerType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.passengerType span {
+  margin: 0 10px;
+}
+
+.passengerType button {
+  background: none;
+  border: none;
+  color: #0071c2;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.passengerType button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}

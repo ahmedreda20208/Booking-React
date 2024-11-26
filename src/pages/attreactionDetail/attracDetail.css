@@ -1,0 +1,194 @@
+.content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.a-main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 3;
+}
+
+.right-column {
+  flex: 1.5;
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.share-button {
+  background-color: #102335;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.side-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.side-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ticket-selection {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.cancellation-info {
+  margin-bottom: 20px;
+}
+
+.free-cancellation {
+  color: green;
+  font-weight: bold;
+}
+
+.duration {
+  color: #555;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.description p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.ticket-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-selection h2 {
+  margin-top: 0;
+}
+
+.ticket-dates {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-dates button {
+  background-color: white;
+  border: 1px solid #007bff;
+  color: #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.ticket-dates button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.ticket-counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ticket-counter label {
+  margin-right: 10px;
+}
+
+.price-info {
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.counter button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.counter input {
+  width: 40px;
+  text-align: center;
+}
+
+.total-price {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.next-button {
+  background-color: #71BCAA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+.free-cancellation-info {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: green;
+}
